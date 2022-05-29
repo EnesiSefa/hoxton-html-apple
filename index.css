@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header section */
+
+.header {
+  height: 10vh;
+  width: 200vw;
+  /* display: grid;
+  grid-area: header; */
+
+  background-color: #313132;
+}
+.ul-nav-list {
+  padding: 10px 20px;
+  
+  
+}
+
+li {
+  display: inline; 
+  
+}
+
+.li-list {
+  
+  
+}
+
+.apple-svg {
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+  /* color: white; */
+}
+span:hover {
+  color: #c1c1c2;
+}
+
+span {
+  transition: 0.5s;
+  color: whitesmoke;
+}
+
+.main {
+  background-color: rgb(187, 163, 131);
+}
+
+.footer {
+  background-color: rgba(72, 118, 218, 0.555);
+}
