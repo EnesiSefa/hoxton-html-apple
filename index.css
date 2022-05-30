@@ -12,6 +12,10 @@ body{
 
 }
 
+:root {
+  --link-color: #2578d1;
+}
+
 
 
 /* header section */
@@ -37,15 +41,15 @@ body{
   height: 20px;
 }
 
-a {
+a  {
   text-decoration: none;
-  /* color: white; */
+  color: #277dd4;
 }
 span:hover {
   color: #c1c1c2;
 }
 
-span {
+.span1 {
   transition: 0.5s;
   color: whitesmoke;
 }
@@ -70,11 +74,31 @@ span {
   background-image: url(./iphone13.jpg);
   background-size: 400px;
   background-position: center bottom;
-  height: 300px;
+  height: 200px;
   background-repeat: no-repeat;
   align-content: start;
   padding: 20px;
 }
+
+
+.top-section__nav-list {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+
+.top-section__nav-link ,span {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--link-color);
+  
+}
+
   
   
   
