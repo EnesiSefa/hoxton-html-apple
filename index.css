@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body{
@@ -22,6 +23,9 @@ body{
 
 .header {
  background-color: #313132;
+ position: sticky;
+ top: 0;
+ opacity:0.981;
  
 }
 
@@ -54,8 +58,16 @@ span:hover {
   color: whitesmoke;
 }
 .material-symbols-outlined{
-  color: whitesmoke;
+  color: #277dd4;
 
+}
+#icon-color{
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+#icon-color:hover{
+  color: #c1c1c2;
 }
 
 .main {
@@ -75,10 +87,10 @@ span:hover {
   display: grid;
   text-align: center;
   background-color: #fbfbfd;
-  background-image: url(./iphone13.jpg);
-  background-size: 1000px;
+  background-image: url(./images/iphone13-pro.jpg);
+  background-size: 2000px;
   background-position: center bottom;
-  height: 300px;
+  height: 400px;
   background-repeat: no-repeat;
   align-content: start;
   padding: 20px;
@@ -91,6 +103,7 @@ span:hover {
   grid-auto-flow: column;
   justify-content: center;
   gap: 1rem;
+ 
   
 }
 
@@ -99,10 +112,48 @@ span:hover {
   grid-auto-flow: column;
   align-items: center;
   text-decoration: none;
-  color: var(--link-color);
+  
+  
   
 }
 
+h3{
+  font-weight: 300;
+
+}
+.iphone13-section-wrapper{
+  display: grid;
+  text-align: center;
+  /* background-color: hsl(279deg 20% 20%); */
+  background-image: url(./images/iphone13.png);
+  background-size: 400px;
+  
+  background-position: center bottom;
+  height: 400px;
+
+  background-repeat: no-repeat;
+  align-content: start;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.iphone13-section__nav-list {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 1rem;
+  
+ 
+  }
+
+  .iphone13-section__nav-link {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    text-decoration: none;
+    
+  }
   
   
   
