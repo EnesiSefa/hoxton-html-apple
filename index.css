@@ -53,9 +53,13 @@ span:hover {
   transition: 0.5s;
   color: whitesmoke;
 }
+.material-symbols-outlined{
+  color: whitesmoke;
+
+}
 
 .main {
-  background-color: rgb(187, 163, 131);
+  /* background-color: rgb(187, 163, 131); */
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -70,11 +74,11 @@ span:hover {
 .top-section-wrapper{
   display: grid;
   text-align: center;
-  background-color: #c1c1c2;
+  background-color: #fbfbfd;
   background-image: url(./iphone13.jpg);
-  background-size: 400px;
+  background-size: 1000px;
   background-position: center bottom;
-  height: 200px;
+  height: 300px;
   background-repeat: no-repeat;
   align-content: start;
   padding: 20px;
