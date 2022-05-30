@@ -4,31 +4,31 @@
   box-sizing: border-box;
 }
 
+body{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+}
+
+
+
 /* header section */
 
 .header {
-  height: 10vh;
-  width: 200vw;
-  /* display: grid;
-  grid-area: header; */
-
-  background-color: #313132;
+ background-color: #313132;
+ /* place-content: center; */
 }
 .ul-nav-list {
-  padding: 10px 20px;
-  
-  
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  align-items: center;
+  justify-items: center;
+  /* gap: 60px; */
+ padding: 20px;
 }
 
-li {
-  display: inline; 
-  
-}
-
-.li-list {
-  
-  
-}
 
 .apple-svg {
   height: 20px;
